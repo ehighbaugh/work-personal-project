@@ -26,5 +26,19 @@ namespace Work_Personal_Project.Controllers
 
             return View();
         }
+
+        public ActionResult Resume()
+        {
+            ViewBag.Message = "Your resume.";
+
+            return View();
+        }
+
+        public ActionResult Portfolio()
+        {
+            ViewBag.Message = "Your portfolio.";
+
+            return View();
+        }
     }
 }
