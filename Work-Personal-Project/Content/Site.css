@@ -29,24 +29,54 @@
 }
   
 .below-header {
-    margin: 40em auto 5em auto;
+    margin: 30em auto 5em auto;
     width: 80%;
     height: auto;
     position: center;
 }
 
-.footer-body {
-    margin: 0 auto;
-    height: auto;
+.soc-icons {
     width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
 }
 
-
-
-/* SOCIAL MEDIA ICONS */
+/* FOOTER AND SOCIAL MEDIA ICONS */
 .soc-icons span{
-    padding: 5em 2em;
-    justify-content: flex-end;
+    width: 80%;
+    padding: 2em 2em;
+}
+
+.copyright p {
+    float: right;
+    margin-top: -5em;
+    margin-left: -15em;
+}
+
+.footer-body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* RESUME PAGE STYLING */
+.body-page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.secondary-header {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.secondary-header h2{
+    margin: 3em auto 1em auto;
+    justify-content: center;
+}
+
+.resume-embed {
+    justify-content: center;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
