@@ -173,6 +173,7 @@
     <Content Include="Content\css\svg-with-js.min.css" />
     <Content Include="Content\css\v4-shims.css" />
     <Content Include="Content\css\v4-shims.min.css" />
+    <Content Include="Content\MQs.css" />
     <Content Include="Content\webfonts\fa-brands-400.svg" />
     <Content Include="Content\webfonts\fa-regular-400.svg" />
     <Content Include="Content\webfonts\fa-solid-900.svg" />
