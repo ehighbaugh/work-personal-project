@@ -37,6 +37,12 @@
     width: 80%;
 }
 
+/* SOCIAL MEDIA ICONS */
+.soc-icons span{
+    padding: 5em 2em;
+    justify-content: center;
+}
+
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */

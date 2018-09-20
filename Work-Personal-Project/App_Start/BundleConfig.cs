@@ -25,7 +25,8 @@ namespace Work_Personal_Project
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/font-awesome.css"));
+                      "~/Content/css/*.css",
+                      "~/Content/webfonts/f*"));
         }
     }
 }
