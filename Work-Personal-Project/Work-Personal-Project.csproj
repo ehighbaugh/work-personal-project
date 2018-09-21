@@ -184,6 +184,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Img\more-this-way.jpg" />
     <Content Include="Img\night-sky.jpg" />
+    <Content Include="Img\polar-bear.jpg" />
     <Content Include="Img\tracks.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

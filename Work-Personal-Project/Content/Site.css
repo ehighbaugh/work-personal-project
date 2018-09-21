@@ -1,4 +1,4 @@
-﻿/* VARIABLES */
+﻿/* GENERAL STYLING */
 
 html, body {
     margin: 0px;
@@ -46,6 +46,11 @@ html, body {
     justify-content: flex-start;
 }
 
+.body-page {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* FOOTER AND SOCIAL MEDIA ICONS */
 .soc-icons span{
     width: 80%;
@@ -64,10 +69,7 @@ html, body {
 }
 
 /* RESUME PAGE STYLING */
-.body-page {
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 .secondary-header {
     width: 80%;
@@ -86,11 +88,13 @@ html, body {
 /******************* ERROR PAGE STYLING **************/
 
 .full-screen {
-    background-image: url("/Img/more-this-way.jpg");
-    background-position: center center;
+    width: auto;
+    height: 100vh;
+    background-image: url("/Img/polar-bear.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
+    background-position: center;
+    opacity: 1;
 }
 
 .error-text {
