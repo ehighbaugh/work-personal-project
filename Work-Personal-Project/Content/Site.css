@@ -85,6 +85,21 @@ html, body {
     justify-content: center;
 }
 
+/******************* ERROR PAGE STYLING **************/
+
+.full-screen {
+    background-image: url("/Img/more-this-way.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.error-text {
+    color: white;
+
+}
+
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */

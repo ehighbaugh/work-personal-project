@@ -26,7 +26,6 @@ namespace Work_Personal_Project
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/css/*.css",
-                      "~/Content/webfonts/f*",
                       "~/Content/MQs.css"));
         }
     }
