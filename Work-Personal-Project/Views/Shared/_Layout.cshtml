@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
-<html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Work+Sans" rel="stylesheet">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
           rel="stylesheet" type='text/css'>
 
@@ -17,27 +17,14 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-126188228-1');
-    </script>
-    <script>
-        /**
-        * Function that tracks a click on an outbound link in Analytics.
-        * This function takes a valid URL string as an argument, and uses that URL string
-        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-        * using 'navigator.sendBeacon' in browser that support it.
-        */
-        var trackOutboundLink = function (url) {
-            ga('send', 'event', 'outbound', 'click', url, {
-                'transport': 'beacon',
-                'hitCallback': function () { document.location = url; }
-            });
-        }
-    </script>
-
-</head>
-<body>
+     </script>
     
+</head >
+<body>
+
     @{
         Html.RenderPartial("_HeaderNavBar");
+        @Html.Partial("_ResumeTracker")
     }
     <div class="container body-content">
         @RenderBody()
