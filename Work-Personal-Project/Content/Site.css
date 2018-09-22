@@ -61,10 +61,10 @@ html, body {
 }
 
 /* FOOTER AND SOCIAL MEDIA ICONS */
-/*.soc-icons span{
+.soc-icons {
     padding: 0.25em 2em;
 }
-*/
+
 .copyright {
     margin-top: 1em;
     padding-left: 2em;
