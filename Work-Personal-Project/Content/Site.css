@@ -31,9 +31,9 @@ html, body {
 
 .header-text {
     font-size: 60px !important;
-    color: black;
+    color: white;
     opacity: 1;
-    margin: -10em auto 2em auto;
+    margin: -6em auto 2em auto;
     position: absolute;
     z-index: 99;
 }
