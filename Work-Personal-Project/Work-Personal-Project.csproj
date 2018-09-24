@@ -160,6 +160,9 @@
     <Content Include="Content\css\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\css\bootstrap\bootstrap.css" />
     <Content Include="Content\css\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Img\buddha.jpg" />
     <Content Include="Content\css\fontawesome\all.css" />
     <Content Include="Content\css\fontawesome\all.min.css" />
@@ -205,6 +208,11 @@
     <Content Include="Content\css\webfonts\fa-solid-900.ttf" />
     <Content Include="Content\css\webfonts\fa-solid-900.woff" />
     <Content Include="Content\css\webfonts\fa-solid-900.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\erinhighbaugh - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
