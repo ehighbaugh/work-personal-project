@@ -116,7 +116,7 @@ Set padding to keep content from hitting the edges
 .full-screen {
     width: auto;
     height: 100vh;
-    background-image: url("/Img/polar-bear.jpg");
+    background-image: url("/Img/buddha.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -126,6 +126,15 @@ Set padding to keep content from hitting the edges
 .error-text {
     color: black;
     padding-top: 3em;
+    font-family:'Caveat', cursive;
+}
+
+.nf-one {
+    font-size: 80px;
+}
+
+.nf-second {
+    font-size: 60px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
