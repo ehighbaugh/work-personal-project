@@ -29,6 +29,8 @@ namespace Work_Personal_Project
                       "~/Content/css/fontawesome/*.css",
                       "~/Content/css/bootstrap/*.css",
                       "~/Content/css/webfonts/*.css"));
+
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
