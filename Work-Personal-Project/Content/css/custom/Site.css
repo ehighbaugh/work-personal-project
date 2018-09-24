@@ -87,7 +87,8 @@ Set padding to keep content from hitting the edges
     margin: auto 10% auto 10%;
     height: 90px;
     bottom: 0;
-    position: absolute;
+    position: relative;
+    padding-top: 2em;
 }
 
 /* RESUME PAGE STYLING */
@@ -99,7 +100,7 @@ Set padding to keep content from hitting the edges
     justify-content: center;
 }
 .secondary-header h2{
-    margin: 3em auto 1em auto;
+    margin: 1em auto 1em auto;
     justify-content: center;
 }
 
@@ -136,16 +137,16 @@ Set padding to keep content from hitting the edges
 
 .error-text {
     color: black;
-    padding-top: 3em;
+    padding-top: 2em;
     font-family:'Caveat', cursive;
 }
 
 .nf-one {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .nf-second {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .full-screen-ie {
@@ -193,7 +194,7 @@ textarea {
     .header-text {
         font-size: 60px;
         color: white;
-        margin: -7em auto auto 1.5em;
+        margin: -5em auto auto 1.5em;
     }
 
     .soc-icons {
