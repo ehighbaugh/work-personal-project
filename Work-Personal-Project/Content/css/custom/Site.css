@@ -40,7 +40,7 @@ Set padding to keep content from hitting the edges
     font-size: 80px !important;
     color: white;
     opacity: 1;
-    margin: -7em 0 2em 5em;
+    margin: -30% auto auto 10%;
     position: absolute;
     z-index: 99;
 }
@@ -76,6 +76,7 @@ Set padding to keep content from hitting the edges
 .copyright {
     margin-top: 1em;
     padding-left: 2em;
+    width: 80%;
 }
 
 .footer-body {
