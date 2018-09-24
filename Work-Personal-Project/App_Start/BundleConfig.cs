@@ -13,9 +13,6 @@ namespace Work_Personal_Project
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
-
-            bundles.Add(new ScriptBundle("~/bundles/custom").Include(
-                        "~/Scripts/custom.js"));
            
            
 
