@@ -27,6 +27,8 @@ namespace Work_Personal_Project
                       "~/Content/site.css",
                       "~/Content/css/*.css",
                       "~/Content/MQs.css"));
+
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
