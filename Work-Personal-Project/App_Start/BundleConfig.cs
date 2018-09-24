@@ -22,11 +22,11 @@ namespace Work_Personal_Project
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css",
-                      "~/Content/css/*.css",
-                      "~/Content/MQs.css"));
+            bundles.Add(new StyleBundle("~/Content/css/files").Include(
+                      "~/Content/css/custom/*.css",
+                      "~/Content/css/fontawesome/*.css",
+                      "~/Content/css/bootstrap/*.css",
+                      "~/Content/css/webfonts/*.css"));
         }
     }
 }
