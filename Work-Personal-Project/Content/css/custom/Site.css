@@ -1,4 +1,6 @@
-﻿/* GENERAL STYLING */
+﻿@import url('MQs.css');
+
+/* GENERAL STYLING */
 
 html, body {
     margin: 0 auto;
@@ -73,11 +75,15 @@ Set padding to keep content from hitting the edges
     width: 80%;
 }
 
+#bootstrapoverride .footer-body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .footer-body {
     /*margin-top: 80vh;*/
     width: 80%;
-    padding-left: 10%;
-    margin: 0 auto;
+    margin: auto 10% auto 10%;
     height: 90px;
     bottom: 0;
     position: absolute;
