@@ -238,4 +238,9 @@ textarea {
     .header-text {
         font-size: 100px;
     }
+
+    .footer-body {
+        height: 90px;
+        margin: 5em auto auto auto;
+    }
 }
