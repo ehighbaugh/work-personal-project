@@ -82,9 +82,9 @@ Set padding to keep content from hitting the edges
 }
 
 .footer-body {
-    /*margin-top: 80vh;*/
+    margin-top: 80vh;
     width: 80%;
-    margin: auto 10% auto 10%;
+    margin: 0 10% auto 10%;
     height: 90px;
     bottom: 0;
     position: absolute;
