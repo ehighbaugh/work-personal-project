@@ -3,26 +3,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erin Highbaugh - Personal Site</title>
-    @Styles.Render("~/Content/css/files")
-    @Scripts.Render("~/bundles/modernizr")
-    @Scripts.Render("~/bundles/custom")
+    @Styles.Render("~/bundles/customcss")
+    @Styles.Render("~/bundles/fab")
+    @Styles.Render("~/bundles/fa")
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Work+Sans|Caveat" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126188228-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-126188228-1');
-    </script>
-
+    @* !! Must be placed in header tag of main page*@
+    @Scripts.Render("~/bundles/gatag")
 </head>
-<body>
+<body class="container-fluid">
 
     @{
         Html.RenderPartial("_HeaderNavBar");
@@ -34,8 +24,10 @@
 
     @Html.Partial("_FooterBar")
 
+    @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/custom")
     @RenderSection("scripts", required: false)
 </body>
 </html>

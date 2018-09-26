@@ -2,22 +2,17 @@
 /* GENERAL STYLING */
 
 html, body {
-    margin: 0 auto;
-    width: 100%;
-    padding: 0px !important;
     font-family: 'Montserrat', sans-serif;
-    display: inline-block;
 }
 
 Set padding to keep content from hitting the edges
 .body-content {
+    width: 80%;
     margin: 0 auto;
-    padding-bottom: 0;
-    width: 100%;
 }
 
 .container-fluid {
-    padding: 0 !important;
+    padding: 0;
 }
 
 .lower-top {
@@ -40,12 +35,10 @@ Set padding to keep content from hitting the edges
 .header-text {
     color: white;
     opacity: 1;
-    margin-top: -5em;
-    margin-left: 3em;
-    position: absolute;
     z-index: 99;
     font-family: 'Caveat', cursive;
     font-size: 60px;
+    margin: 3em auto auto 3em;
 }
 
 .header-text-2 {
@@ -57,48 +50,7 @@ Set padding to keep content from hitting the edges
     font-size: 60px;
 }
   
-.below-header {
-    margin-top: 80vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-    width: 80%;
-    height: auto;
-    position: center;
-}
 
-
-.body-page {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 3em;
-}
-
-/* FOOTER AND SOCIAL MEDIA ICONS */
-.soc-icons {
-    padding: 0.25em 2em;
-}
-
-.copyright {
-    margin-top: 1em;
-    padding-left: 2em;
-    width: 80%;
-}
-
-#bootstrapoverride .footer-body {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.footer-body {
-    margin-top: 80vh;
-    width: 80%;
-    margin: 0 10% auto 10%;
-    height: 90px;
-    bottom: 0;
-    position: relative;
-    padding-top: 2em;
-}
 
 /* RESUME PAGE STYLING */
 
@@ -129,9 +81,6 @@ Set padding to keep content from hitting the edges
     padding-bottom: 1em;
 }
 
-#about-image {
-    
-}
 /******************* ERROR PAGE STYLING **************/
 
 .full-screen {
@@ -183,10 +132,10 @@ textarea {
 }
 
 
-/******************** MEDIA QUERIES ***********************/
+/*/******************** MEDIA QUERIES ***********************/
 
 /* SMALL SCREENS */
-@media (max-width: 600px) {
+/*/*@media (max-width: 600px) {
     .main-header-image {
         width: 100%;
         height: calc(100% - 90px);
@@ -235,17 +184,17 @@ textarea {
 
 /* SMALL SCREENS */
 
-@media (min-width: 601px) {
+/*@media (min-width: 601px) {
     .header-text-2 {
         margin: -4em auto auto 2em;
     }
 
     .header-text {
-        margin: -7em auto auto 2em;
+        margin: -7em auto auto 2em;*/
     }
 }
 /* MEDIUM SCREENs */
-@media (min-width: 900px) {
+/*@media (min-width: 900px) {
     .header-text {
         font-size: 70px;
     }
@@ -255,11 +204,11 @@ textarea {
         margin-top: -3em;
         margin-left: 5em;
     }
-}
+}*/
 
 
 /* LARGE SCREENS */
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 
     .header-text {
         font-size: 80px;
@@ -292,6 +241,6 @@ textarea {
 
     .footer-body {
         height: 90px;
-        margin: 5em auto auto auto;
+        margin: 5em auto auto auto;*/
     }
 }

@@ -1,0 +1,19 @@
+﻿* {
+    --footer-height: 60px;
+}
+
+#footer {
+    bottom: 0;
+    width: 80%;
+    margin: 0 10%;
+    position: absolute;
+    height: var(--footer-height);
+}
+
+.footer-block {
+    margin: 1em 2em;
+}
+
+.soc-icons i {
+    padding: 0.25em;
+}

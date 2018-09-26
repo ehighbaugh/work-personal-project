@@ -2,16 +2,17 @@
 @{
     ViewBag.Title = "Erin Highbaugh - Resume";
 }
-<script>
-    gtag('config', 'GA_TRACKING_ID');
-</script>
+
 <div class="body-page">
     <div  class="secondary-header">
         <h2>Resume</h2>
         <div class="resume-embed">
             <p>View my resume below, or <a href="~/Documents/Resume-HighbaughErin.pdf" ga('send', { hitType:'click', eventCategory:'Resume', eventAction:'download', eventLabel:'ResumeDownload' });>download a copy here</a>.</p>
-            <embed src="~/Documents/Resume-HighbaughErin.pdf" type="application/pdf" width="100%" height="600px" />
+            <embed class="resume" src="~/Documents/Resume-HighbaughErin.pdf" type="application/pdf" />
         </div>
     </div>
 </div>
+
+@Scripts.Render("~/Bundles/resHelper")
+
 

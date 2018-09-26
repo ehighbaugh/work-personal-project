@@ -15,14 +15,14 @@ namespace Work_Personal_Project.Controllers
         public ActionResult NotFound()
         {
             Response.StatusCode = NotFoundCode;
-
+            ViewBag.Message = "The URL you entered was not found";
             return View();
         }
 
         public ActionResult InternalError()
         {
             Response.StatusCode = InternalErrorCode;
-
+            ViewBag.Message = "There was an internal server error";
             return View();
         }
     }
