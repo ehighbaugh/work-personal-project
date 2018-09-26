@@ -1,11 +1,8 @@
 ﻿@import url("~/Content/css/custom/Footer.css")
 
-
-/* FONT STYLING */
 .dummy {
-           this is: a dummy class;
+           this: isadummyclass;
        }
-/* GENERAL STYLING */
 
 /* fonts */
 
@@ -49,7 +46,7 @@ body {
     width: 100%;
     height: calc(100% - var(--footer-height));
     margin: 0 auto;
-    background-image: url("/Img/tracks.jpg");
+    background-image: url("/Img/tracks-web.jpg");
     background-position: center center;
     background-size: cover;
     position: absolute;
@@ -84,7 +81,7 @@ body {
 .error-bkgd {
     width: auto;
     height: 100vh;
-    background-image: url("/Img/buddha.jpg");
+    background-image: url("/Img/buddha-web.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

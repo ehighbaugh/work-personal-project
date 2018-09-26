@@ -173,7 +173,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="Img\buddha.jpg" />
+    <Content Include="Img\buddha-web.jpg" />
     <Content Include="Content\css\fontawesome\all.css" />
     <Content Include="Content\css\fontawesome\all.min.css" />
     <Content Include="Content\css\fontawesome\brands.css" />
@@ -194,10 +194,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\css\custom\Site.css" />
-    <Content Include="Img\more-this-way.jpg" />
-    <Content Include="Img\night-sky.jpg" />
-    <Content Include="Img\polar-bear.jpg" />
-    <Content Include="Img\tracks.jpg" />
+    <Content Include="Img\more-web.jpg" />
+    <Content Include="Img\tracks-web.jpg" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
