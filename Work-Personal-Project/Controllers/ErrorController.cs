@@ -15,7 +15,8 @@ namespace Work_Personal_Project.Controllers
         public ActionResult NotFound()
         {
             Response.StatusCode = NotFoundCode;
-            ViewBag.Message = "The URL you entered was not found";
+            ViewBag.Message = "The URL you entered was not found<br />" +
+                "second line of code";
             return View();
         }
 

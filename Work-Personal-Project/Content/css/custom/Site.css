@@ -1,27 +1,22 @@
-﻿
+﻿@import url("~/Content/css/custom/Footer.css")
 /* GENERAL STYLING */
-
-html, body {
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-Set padding to keep content from hitting the edges
 .body-content {
-    width: 80%;
-    margin: 0 auto;
+    padding-top: 3em;
+    font-size: 1.5em;
+    line-height: 1.5;
 }
 
 .container-fluid {
     padding: 0;
 }
 
-.lower-top {
-    margin-top: 4em;
-}
-
 .main-header-image {
     width: 100%;
-    height: calc(100% - 90px);
+    height: calc(100% - var(--footer-height));
     margin: 0 auto;
     background-image: url("/Img/tracks.jpg");
     background-position: center center;
@@ -33,12 +28,14 @@ Set padding to keep content from hitting the edges
 }
 
 .header-text {
+    width: auto;
+    height: auto;
     color: white;
     opacity: 1;
     z-index: 99;
     font-family: 'Caveat', cursive;
     font-size: 60px;
-    margin: 3em auto auto 3em;
+    margin: 4em 0 0 3em;
 }
 
 .header-text-2 {
@@ -48,6 +45,7 @@ Set padding to keep content from hitting the edges
     z-index: 99;
     font-family: 'Caveat', cursive;
     font-size: 60px;
+    margin: 3em 0 0 3em;
 }
   
 
@@ -65,21 +63,8 @@ Set padding to keep content from hitting the edges
     justify-content: center;
 }
 
-.resume-embed {
-    justify-content: center;
-}
 
-/******************* ABOUT PAGE STYLING ***************/
 
-.about-page {
-    font-size: 1.5em;
-    line-height: 1.6;
-}
-
-.about-page p {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
 
 /******************* ERROR PAGE STYLING **************/
 
