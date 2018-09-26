@@ -1,5 +1,32 @@
 ﻿@import url("~/Content/css/custom/Footer.css")
+
+
+/* FONT STYLING */
+.dummy {
+           this is: a dummy class;
+       }
 /* GENERAL STYLING */
+
+/* fonts */
+
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-80 {
+    font-size: 80px;
+}
+
+/* body styles */
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -12,6 +39,10 @@ body {
 
 .container-fluid {
     padding: 0;
+}
+
+.pt2 {
+    padding-top: 2em;
 }
 
 .main-header-image {
@@ -48,51 +79,9 @@ body {
     margin: 3em 0 0 3em;
 }
   
-
-
-/* RESUME PAGE STYLING */
-
-
-.secondary-header {
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
-}
-.secondary-header h2{
-    margin: 1em auto 1em auto;
-    justify-content: center;
-}
-
-
-
-
 /******************* ERROR PAGE STYLING **************/
 
-.full-screen {
-    width: auto;
-    height: 100vh;
-    background-image: url("/Img/buddha.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 1;
-}
-
-.error-text {
-    color: black;
-    padding-top: 2em;
-    font-family:'Caveat', cursive;
-}
-
-.nf-one {
-    font-size: 60px;
-}
-
-.nf-second {
-    font-size: 40px;
-}
-
-.full-screen-ie {
+.error-bkgd {
     width: auto;
     height: 100vh;
     background-image: url("/Img/buddha.jpg");
@@ -114,118 +103,4 @@ input,
 select,
 textarea {
     max-width: 280px;
-}
-
-
-/*/******************** MEDIA QUERIES ***********************/
-
-/* SMALL SCREENS */
-/*/*@media (max-width: 600px) {
-    .main-header-image {
-        width: 100%;
-        height: calc(100% - 90px);
-        margin: 0 auto;
-        background-image: url("/Img/tracks.jpg");
-        background-position: center center;
-        background-size: cover;
-        position: absolute;
-        background-color: #fff;
-        opacity: 0.7;
-        z-index: -99;
-    }
-
-    .header-text {
-        font-size: 60px;
-        color: white;
-        margin: -8em auto auto 1.5em;
-    }
-
-    .header-text-2 {
-        font-size: 50px;
-        margin-top: -4.5em;
-        margin-left: 3em;
-    }
-
-    .soc-icons {
-        padding: 0;
-    }
-
-    .d-flex {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    .footer-body {
-        width: 95%;
-        margin: 0 auto;
-        height: 90px;
-    }
-
-    .copyright {
-        margin-top: 0.25em;
-        padding: 0;
-    }
-}
-
-/* SMALL SCREENS */
-
-/*@media (min-width: 601px) {
-    .header-text-2 {
-        margin: -4em auto auto 2em;
-    }
-
-    .header-text {
-        margin: -7em auto auto 2em;*/
-    }
-}
-/* MEDIUM SCREENs */
-/*@media (min-width: 900px) {
-    .header-text {
-        font-size: 70px;
-    }
-
-    .header-text-2 {
-        font-size: 60px;
-        margin-top: -3em;
-        margin-left: 5em;
-    }
-}*/
-
-
-/* LARGE SCREENS */
-/*@media (min-width: 1200px) {
-
-    .header-text {
-        font-size: 80px;
-    }
-
-    .header-text-2 {
-        font-size: 70px;
-        margin-top: -4em;
-        margin-left: 9em;
-    }
-}
-
-@media (min-width: 1600px) {
-
-    .header-text {
-        font-size: 100px;
-        margin: -5.5em auto auto 3em;
-    }
-
-    .header-text-2 {
-        font-size: 90px;
-        color: white;
-        opacity: 1;
-        margin-top: -4em;
-        margin-left: 12em;
-        position: absolute;
-        z-index: 99;
-        font-family: 'Caveat', cursive;
-    }
-
-    .footer-body {
-        height: 90px;
-        margin: 5em auto auto auto;*/
-    }
 }
