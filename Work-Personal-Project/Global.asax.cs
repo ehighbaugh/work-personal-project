@@ -24,14 +24,15 @@ namespace Work_Personal_Project
             Server.ClearError();
             var routeData = new RouteData();
             routeData.Values["controller"] = "Error";
+            routeData.Values["action"] = "Error";
 
-            if ((Context.Server.GetLastError() is HttpException) && ((Context.Server.GetLastError() as HttpException).GetHttpCode() != 404))
-            {
-                routeData.Values["action"] = "InternalError";
-            } else
-            {
-                routeData.Values["action"] = "NotFound";
-            }
+            //if ((Context.Server.GetLastError() is HttpException) && ((Context.Server.GetLastError() as HttpException).GetHttpCode() != 404))
+            //{
+            //    routeData.Values["action"] = "InternalError";
+            //} else
+            //{
+            //    routeData.Values["action"] = "NotFound";
+            //}
             Response.TrySkipIisCustomErrors = true;
             IController errorsController = new ErrorController();
             HttpContextWrapper wrapper = new HttpContextWrapper(Context);

@@ -7,24 +7,28 @@ using System.Web.Mvc;
 namespace Work_Personal_Project.Controllers
 {
     public class ErrorController : Controller
-    {
-        // GET: Error
-        private const int NotFoundCode = 404;
-        private const int InternalErrorCode = 500;
-
-        public ActionResult NotFound()
+    {       
+        // GET errors
+        public ActionResult Index()
         {
-            Response.StatusCode = NotFoundCode;
-            ViewBag.Message = "The URL you entered was not found<br />" +
-                "second line of code";
-            return View();
-        }
+            var errorCode = Response.StatusCode;
 
-        public ActionResult InternalError()
-        {
-            Response.StatusCode = InternalErrorCode;
-            ViewBag.Message = "There was an internal server error";
-            return View();
+            if (errorCode == 404)
+            {
+                ViewBag.Title = "Error 404: File Not Found";
+                ViewBag.Message = MvcHtmlString.Create("Three things cannot long be hidden:<br />" +
+                    "the sun, the moon, and bad code");
+                return View();
+            } else if (errorCode == 500)
+            {
+                ViewBag.Title = "Error 500: Internal Server Error";
+                ViewBag.Message = "There was an internal server error. Our bad.";
+                return View();
+            } else
+            {
+                return View();
+            }
+            
         }
     }
 }
